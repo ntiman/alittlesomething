@@ -6,7 +6,7 @@ export interface Person {
 
 withDefaults(defineProps<Person>(), {
     email: "test",
-    image: "",
+    image: "123",
     name: "test_name"
 })
     
