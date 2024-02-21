@@ -1,12 +1,25 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TailwindTestComponent from './components/TailwindTestComponent.vue';
+<script lang="ts">
+import HelloWorld from "./components/HelloWorld.vue";
+import TailwindTestComponent from "./components/TailwindTestComponent.vue";
+import Message from "./components/Message.vue";
+import { ref } from "vue";
+
+export default {
+  components: { TailwindTestComponent, HelloWorld, Message },
+  setup() {
+    const message = ref<string>("Hello world");
+    return {
+      message,
+    };
+  },
+  mounted() {},
+};
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
-  <BaseButton />
-  <tailwind-test-component />
+  <HelloWorld />
+  <TailwindTestComponent />
+  <Message :message="message" />
 </template>
 
 <style scoped>
