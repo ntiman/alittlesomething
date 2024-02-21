@@ -3,13 +3,9 @@
 Install linter, husky (skip prettier)
 https://miyauchi.dev/posts/vite-vue3-typescript/
 
-Add to .eslintrc: 
-"rules": {
-      "vue/script-setup-uses-vars": "error"
-}
+Add to .eslintrc: "rules": { "vue/script-setup-uses-vars": "error" }
 
-Change moduleResolution to "node" in tsconfig: 
-"moduleResolution": "node"
+Change moduleResolution to "node" in tsconfig: "moduleResolution": "node"
 
 Run development server
 
@@ -19,17 +15,15 @@ Run development server
 
 ##Project sub-parts
 
-###Tailwind 
+###Tailwind
 
-Install pre-built tailwind html/css components 
+Install pre-built tailwind html/css components
 
 -npm install @headlessui/vue @heroicons/vue
 
-
 Resources & assets (used by default)
 
-Pre-built Components - HeadlessUI - https://headlessui.com/vue
-Icons - Heroicons - https://heroicons.com/
+Pre-built Components - HeadlessUI - https://headlessui.com/vue Icons -
+Heroicons - https://heroicons.com/
 
 ###Pinia - https://pinia.vuejs.org/
-
