@@ -1,6 +1,6 @@
 ##Project setup
 
-Install linter, husky (skip prettier)
+Install linter, husky 
 https://miyauchi.dev/posts/vite-vue3-typescript/
 
 Add to .eslintrc: "rules": { "vue/script-setup-uses-vars": "error" }
@@ -16,10 +16,6 @@ Run development server
 ##Project sub-parts
 
 ###Tailwind
-
-Install pre-built tailwind html/css components
-
--npm install @headlessui/vue @heroicons/vue
 
 Resources & assets (used by default)
 
