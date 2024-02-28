@@ -1,4 +1,4 @@
-##Project setup
+Project setup
 
 Install linter, husky 
 https://miyauchi.dev/posts/vite-vue3-typescript/
@@ -13,13 +13,13 @@ Run development server
 2. npm i
 3. npm run dev
 
-##Project sub-parts
+Project sub-parts
 
-###Tailwind
+Tailwind
 
 Resources & assets (used by default)
 
 Pre-built Components - HeadlessUI - https://headlessui.com/vue Icons -
 Heroicons - https://heroicons.com/
 
-###Pinia - https://pinia.vuejs.org/
+Pinia - https://pinia.vuejs.org/
