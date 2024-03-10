@@ -1,3 +1,5 @@
+Playing around with vue 3 composition api
+
 Project setup
 
 Install linter, husky 
